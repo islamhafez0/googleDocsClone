@@ -81,7 +81,7 @@ export default function TextEditor() {
       theme: "snow",
       modules: { toolbar: TOOLBAR_OPTIONS },
     });
-    ql.setText("Loading...");
+    ql.setText("Waiting To Connect...");
     ql.disable();
     setQuill(ql);
   }, []);
